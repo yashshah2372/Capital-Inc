@@ -152,4 +152,20 @@ margin-bottom: 1rem;
 #about-us .content{
     justify-content: center;
 }
+#who{
+    display:flex;
+}
+.who-img{
+    flex: 1;
+    background: url('/images/people.jpg') no-repeat center center;
+    background-size: cover;
+}
+.who-text{
+    flex:1;
+    padding: 2rem;
+}
+.list li{
+    padding: 1rem 0;
+    border-bottom: dotted 1px #555;
+}
 
