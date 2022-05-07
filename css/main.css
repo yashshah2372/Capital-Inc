@@ -149,3 +149,7 @@ margin-bottom: 1rem;
     color: var(--primary-color);
     transition: background 0.5s,color 0.5s;
 }
+#about-us .content{
+    justify-content: center;
+}
+
