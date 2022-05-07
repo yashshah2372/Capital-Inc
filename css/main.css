@@ -95,6 +95,19 @@ ul{
 .logo{
     max-height: 45px;
 }
+#showcase{
+    background: #333 url('/images/showcase.jpg') no-repeat center center;
+    height:100vh;
+    background-size: cover;
+}
+.showcase-content{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+    justify-content: center;
+}
 #sub-showcase{
     width:1000px;
     margin:0 auto;
