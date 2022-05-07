@@ -1,0 +1,54 @@
+@media screen and (max-width:550px){
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin-bottom: 10px;
+    }
+    .l-heading{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .lead{
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+    }
+    .content{
+        flex-direction: column;
+        padding: 0;
+    }
+    .container{
+        max-width: 100vw;
+        margin: 0;
+    }
+    .col-4{
+        width: 100%;
+    }
+    #about-us .content{
+        align-items: center;
+    }
+    #about-us .content img{
+        max-width: 150px;
+    }
+    #who{
+        flex-direction: column-reverse;
+    }
+    .main-footer .container{
+        padding:1rem
+    }
+    .main-footer .lead{
+        font-size: 0.8rem;
+    }
+    #who .who-img{
+        flex: none;
+        height: 300px;
+    }
+    #who .who-map{
+        flex: none;
+        height: 300px;
+    }
+ #who .who-text h1{
+     text-align: center;
+ }
+}
